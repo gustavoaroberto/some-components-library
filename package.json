@@ -1,0 +1,51 @@
+{
+  "name": "some-components-library",
+  "version": "1.0.0",
+  "description": "Some components,that's all",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoaroberto/some-components-library.git"
+  },
+  "keywords": [
+    "components",
+    "library"
+  ],
+  "author": "Gus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavoaroberto/some-components-library/issues"
+  },
+  "homepage": "https://github.com/gustavoaroberto/some-components-library#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@brainhubeu/react-carousel": "^2.0.3",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@storybook/preset-scss": "^1.0.3",
+    "@svgr/webpack": "^5.5.0",
+    "css-loader": "^5.2.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.46.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "storybook-addon-styled-component-theme": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.3"
+  }
+}
