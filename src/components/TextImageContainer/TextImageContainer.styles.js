@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const TextImageContainerStyles = styled.div`
     width: 100%;
-    min-height: 30vh;
+    min-height: 400px;
     background-image: url(${(props) => props.image});
     background-repeat: no-repeat;
     background-size: cover;

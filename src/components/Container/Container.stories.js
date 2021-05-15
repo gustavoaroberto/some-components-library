@@ -2,6 +2,7 @@ import React from 'react';
 
 import Container from '../Container';
 import Title from '../Title';
+import Text from '../Text';
 
 export default {
     title: 'Base/Container',
@@ -20,11 +21,11 @@ const Template = (args) => (
     <Container backgroundColor={args.backgroundColor} backgroundImage={args.backgroundImage}>
         <div className='text'>
             <Title color='text'>Hello world caraio</Title>
-            <p>
+            <Text color='text'>
                 Exercitation exercitation ipsum laboris magna amet. Proident ad eiusmod dolore anim consectetur velit est nostrud deserunt officia labore
                 reprehenderit. Lorem adipisicing deserunt veniam exercitation qui est ipsum voluptate culpa irure. Laboris anim elit esse velit ullamco et
                 irure. Minim est sunt tempor consequat. Culpa sit amet Lorem eiusmod id irure est ut adipisicing ex exercitation.
-            </p>
+            </Text>
         </div>
         <div className='image'>
             <img src='https://thumbs.dreamstime.com/b/pen-paper-blank-131774984.jpg' />

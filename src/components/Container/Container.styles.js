@@ -26,6 +26,9 @@ const ContainerStyles = styled.div`
 
     .text {
         margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @media (min-width: 830px) {

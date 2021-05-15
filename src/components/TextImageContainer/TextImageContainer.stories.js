@@ -21,10 +21,16 @@ export default {
 const Template = (args) => (
     <TextImageContainer image={args.image}>
         <Title color='text'>Desconfia de alguma assinatura?</Title>
-        <Text color='text'>Eu consectetur minim nisi aliqua quis. Commodo nostrud magna ea non laboris ex. Labore magna ad nisi labore eu.</Text>
+        <Text color='text'>
+            Proident exercitation nisi do adipisicing commodo commodo consectetur sint est qui culpa dolore. Elit enim ullamco sint id aliqua aliquip sint esse.
+            Labore elit dolor consequat velit ullamco ut. Non velit non exercitation culpa exercitation minim culpa do esse laborum. Magna laboris nisi proident
+            anim ea in incididunt aliquip irure anim est. Velit enim nostrud qui in velit ipsum elit incididunt.
+        </Text>
         <div>
-            <Button color='text'>Saiba mais</Button>
-            <Button color='text' outline>
+            <Button className='button' color='text'>
+                Saiba mais
+            </Button>
+            <Button className='button' color='text' outline>
                 Saiba mais
             </Button>
         </div>

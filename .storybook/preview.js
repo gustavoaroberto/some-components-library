@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import '../src/styles/reset.css';
 import '../src/styles/typography.css';
 import '@brainhubeu/react-carousel/lib/style.css';
+import 'bulma/css/bulma.min.css';
 
 const themes = [
     {

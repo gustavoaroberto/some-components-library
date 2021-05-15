@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ClientsCarouselStyles = styled.div`
     img {
         width: 100%;
-        padding: 0 10px;
+        padding: 10px;
     }
 
     .arrow {
@@ -22,8 +22,8 @@ const ClientsCarouselStyles = styled.div`
         }
 
         svg {
-            width: 24px;
-            height: 24px;
+            width: 48px;
+            height: 48px;
             color: ${(props) => props.theme.textColor};
         }
     }
